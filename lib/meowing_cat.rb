@@ -23,4 +23,5 @@ end
 maru = Cat.new
 maru.name = "Maru"
 maru.meow = "Meow!"
+puts meow
 
