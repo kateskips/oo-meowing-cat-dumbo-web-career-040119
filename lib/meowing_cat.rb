@@ -2,6 +2,7 @@ require 'pry'
 
 class Cat
  attr_accessor :name
+ attr_accessor :meow
 
  def name= (cat_name)
    @name = cat_name
