@@ -9,6 +9,15 @@ class Cat
  
  def name
    @name
+ end
+ 
+ def meow= (cat_sound)
+   @meow = cat_sound
+ end
+ 
+ def meow
+   @meow
+ end
 end
 
 maru = Cat.new
