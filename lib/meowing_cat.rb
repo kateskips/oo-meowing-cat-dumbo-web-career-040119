@@ -19,7 +19,6 @@ class Cat
  def meow
    @meow
  end
-
 end
 
 maru = Cat.new
